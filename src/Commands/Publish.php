@@ -69,14 +69,15 @@ class Publish extends Command
             $copyEnFiles = true;
         } else {
             foreach (explode(',', $locale) as $filename) {
-                $file = $sourcePath.'/'.trim($filename);
-
                 if ($locale === 'en') {
                     $copyEnFiles = true;
+                    continue;
                 }
+                $file = $sourcePath.'/'.trim($filename);
 
                 if (!file_exists($file)) {
                     $this->error("lang '$filename' not found.");
+
                     continue;
                 }
 
