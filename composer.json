@@ -7,8 +7,7 @@
         "overtrue"
     ],
     "require": {
-        "caouecs/laravel-lang": "~4.0",
-        "symfony/process": "^5.0.0"
+        "caouecs/laravel-lang": "~3.0"
     },
     "autoload": {
         "psr-4": {
@@ -22,5 +21,15 @@
             "name": "overtrue",
             "email": "anzhengchao@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Overtrue\\LaravelLang\\TranslationServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "laravel/framework": "~7.0"
+    }
 }
