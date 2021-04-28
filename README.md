@@ -1,5 +1,5 @@
 <h1 align="center">Laravel-lang</h1>
-<p align="center">75 languages support for Laravel application based on <a href="https://github.com/Laravel-Lang/lang">Laravel-Lang/lang</a>.
+<p align="center">75 languages support for Laravel 5 application based on <a href="https://github.com/Laravel-Lang/lang">Laravel-Lang/lang</a>.
 <p align="center"><a href="https://github.com/overtrue/laravel-lang"><img alt="For Laravel 5" src="https://img.shields.io/badge/laravel-5.*-green.svg" style="max-width:100%;"></a>
 <a href="https://github.com/overtrue/laravel-lang"><img alt="For Lumen 5" src="https://img.shields.io/badge/lumen-5.*-green.svg" style="max-width:100%;"></a>
 <a href="https://packagist.org/packages/overtrue/laravel-lang"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/overtrue/laravel-lang.svg" style="max-width:100%;"></a>
@@ -17,7 +17,6 @@
 
 | Laravel version | Composer command                              |
 | --------------- | --------------------------------------------- |
-| Laravel 9.x     | `composer require overtrue/laravel-lang:~6.0` |
 | Laravel 7.x-8.x | `composer require overtrue/laravel-lang:~5.0` |
 | Laravel 6.x     | `composer require overtrue/laravel-lang:~4.0` |
 | Laravel 5.8     | `composer require overtrue/laravel-lang:~3.0` |
@@ -25,7 +24,7 @@
 | Laravel 5       | `composer require overtrue/laravel-lang:~1.0` |
 
 ```shell
-$ composer require "overtrue/laravel-lang:~6.0"
+$ composer require "overtrue/laravel-lang:~5.0"
 ```
 
 #### Lumen
